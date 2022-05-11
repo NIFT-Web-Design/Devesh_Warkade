@@ -1,0 +1,228 @@
+header {
+    padding: 16px 160px;
+  }
+header#navHeader{
+  height:84px;
+  background-color: #2A2A2A;
+}
+header#navHeader > div {
+  max-width: 1200px;
+  min-width: 1000px;
+  height: 80px;
+  margin: 0px auto 0px;
+}
+#navHeader #logo {
+  float: left;
+  margin-top: 18px;
+  margin-left: 5px;
+}
+#navHeader #mainNav {
+  float: right;
+  margin-top: 28px;
+}
+
+nav {
+  display: inline-block;
+  vertical-align: top;
+  float: right;
+}
+nav a {
+  float: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #d4d4d4;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+nav a#boxblue {
+  background-color: #107698;
+  color: white;
+  border-radius: 2px;
+}
+
+nav a#orangehighlight {
+color: orange
+}
+
+.heading {
+  background-image: url('https://www.optimal-partners.com/site_images/ourServicesHeader.jpg');
+  background-position: center;
+  text-align: center;
+  width: 100%;
+  padding: 70px 0;
+}
+.heading h1{
+  color: white;
+  text-shadow: 1px 2px 2px #000;
+  font-size: 50px;
+}
+.bodyContainer {
+  padding: 50px 0 70px;
+  max-width: 1150px;
+  margin: auto;
+}
+.firstHeader {
+  font-size: 34px;
+  color: #0a465b;
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 10px;
+}
+.servicesIntro {
+  color: #7f969e;
+  font-size: 18px;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+  padding: 10px 0;
+  line-height: 1.4;
+  height: 100%;
+}
+span {
+color: #FFA500
+}
+.introduction {
+  background-color: #EDEff3;
+  padding: 50px 0 70px;
+}
+.flexibility {
+  padding: 50px 0 50px;
+  max-width: 1150px;
+  margin: auto;
+  overflow: hidden;
+}
+.trustedBy {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #EDEff3;
+}
+.lastPoint {
+    margin-right: 0px !Important;
+}
+.trustedBy h2 {
+  font-size: 34px;
+  color: #0a465b;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.trustedBy img{
+  height: 90px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-bottom{
+  width: 100%;
+  padding: 40px 0;
+  background-color: #504f4f;
+  color: #c7c5c5;
+  /* z-index: 99; */
+  /* position: relative; */
+  text-align: center;
+  font-size: 16px;
+}
+
+.service-box{
+  max-width: 350px;
+  text-align: center;
+  box-sizing: border-box;
+  float: left;
+  margin-top: 30px;
+  margin-right: 50px;
+}
+
+.service-box h2 {
+  font-size: 22px;
+  color: #0a465b;
+  border-bottom: 2px #FDB530 solid;
+  text-align: center;
+  margin-top: 0px;
+  font-variant: small-caps;
+  width: 80%;
+  margin: auto;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.service-box p{
+  padding: 15px;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 1.4;
+  color: #7f969e;
+}
+.service-title{
+  font-size: 18px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.secondfooter{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-flow: wrap;
+}
+.card {
+  max-width: 263px;
+  height: 390px;
+  background: #fff;
+  border: 1px solid #ccc;
+  margin-bottom: 50px;
+  transition: 0.3s;
+  margin-right:25px;
+  margin-top:50px;
+}
+
+.card-header {
+  text-align: center;
+  padding: 25px 20px 25px;
+  background-color: #107698;
+  font-variant: small-caps;
+  font-size: 30px;
+  color: #edf1f2;
+}
+
+.card-body {
+  padding: 30px 20px;
+  text-align: center;
+  font-size: 16px;
+  color: #7f969e;
+}
+
+.services-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.service-box{
+  max-width: 33.33%;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.service-title{
+  font-size: 22px;
+  font-variant: small-caps;
+  margin: auto;
+  border-bottom: 2px #FDB530 solid;
+  width: 80%;
+}
+.service-desc{
+  font-size: 16px;
+  color: grey;
+  padding: 15px;
+  display: inline-block;
+  line-height: 1.4;
+}
